@@ -35,3 +35,18 @@ function isPalindrome(str) {
 
 console.log(isPalindrome("madam")); 
 console.log(isPalindrome("hello")); 
+
+//Problem-04 - find the  max Number
+function findMax(numbers) {
+  let max = numbers[0];
+
+  for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] > max) {
+      max = numbers[i];
+    }
+  }
+  return max;
+}
+
+console.log(findMax([5, 1, 9, 3])); 
+
